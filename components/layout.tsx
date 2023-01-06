@@ -10,7 +10,6 @@ export default function Layout({children}: LayoutTypes) {
 	return (
 		<>
 			<Header/>
-			<h1>레이아웃</h1>
 			<div>{children}</div>
 			<Footer/>
 		</>
